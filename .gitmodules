@@ -1,3 +1,6 @@
-[submodule "appwin"]
-	path = appwin
-	url = ./appwin/
+[submodule "appwin/npm-modules/prism-rn"]
+	path = appwin/npm-modules/prism-rn
+	url = git@github.com:nocanstillbb/prism-rn.git
+[submodule "appwin/npm-modules/prism"]
+	path = appwin/npm-modules/prism
+	url = git@github.com:cpp-prism/prism.git
