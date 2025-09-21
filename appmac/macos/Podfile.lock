@@ -5,6 +5,28 @@ PODS:
   - FBLazyVector (0.78.6)
   - fmt (11.0.2)
   - glog (0.3.5)
+  - Minesweeper (0.1.0):
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2024.11.18.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
+  - prism (1.0.0)
   - PrismRn (0.1.0):
     - DoubleConversion
     - glog
@@ -1511,6 +1533,8 @@ DEPENDENCIES:
   - FBLazyVector (from `../node_modules/react-native-macos/Libraries/FBLazyVector`)
   - fmt (from `../node_modules/react-native-macos/third-party-podspecs/fmt.podspec`)
   - glog (from `../node_modules/react-native-macos/third-party-podspecs/glog.podspec`)
+  - "Minesweeper (from `../node_modules/@nocanstillbb/minesweeper`)"
+  - "prism (from `../node_modules/@nocanstillbb/prism`)"
   - "PrismRn (from `../node_modules/@nocanstillbb/prism-rn`)"
   - RCT-Folly (from `../node_modules/react-native-macos/third-party-podspecs/RCT-Folly.podspec`)
   - RCT-Folly/Fabric (from `../node_modules/react-native-macos/third-party-podspecs/RCT-Folly.podspec`)
@@ -1588,6 +1612,10 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native-macos/third-party-podspecs/fmt.podspec"
   glog:
     :podspec: "../node_modules/react-native-macos/third-party-podspecs/glog.podspec"
+  Minesweeper:
+    :path: "../node_modules/@nocanstillbb/minesweeper"
+  prism:
+    :path: "../node_modules/@nocanstillbb/prism"
   PrismRn:
     :path: "../node_modules/@nocanstillbb/prism-rn"
   RCT-Folly:
@@ -1716,7 +1744,9 @@ SPEC CHECKSUMS:
   FBLazyVector: 31dd89ddefc65148109e00de4270d3ac484bd8c1
   fmt: f6af2d677a106e3e44c9536a4c0c7f03ab53c854
   glog: b7594b792ee4e02ed1f44b01d046ca25fa713e3d
-  PrismRn: a4bae1bc10c23f9094f828825efed80ab2bb0b89
+  Minesweeper: e887e2a1078b8346c044f824720ce6bc87e2cc92
+  prism: 5b8499c9b8e25e1ca2cf6b4d6997164241036c85
+  PrismRn: 3de969873c0f197e09003b41b79e0114e1957d76
   RCT-Folly: e8b53d8c0d2d9df4a6a8b0a368a1a91fc62a88cb
   RCTDeprecation: 9da6c2d8a3b1802142718283260fb06d702ddb07
   RCTRequired: 574f9d55bda1d50676530b6c36bab4605612dfb6
