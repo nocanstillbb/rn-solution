@@ -19,3 +19,6 @@
 [submodule "appmac/npm-modules/minesweeper"]
 	path = appmac/npm-modules/minesweeper
 	url = git@github.com:nocanstillbb/minesweeper.git
+[submodule "appmobile/npm-modules/minesweeper"]
+	path = appmobile/npm-modules/minesweeper
+	url = git@github.com:nocanstillbb/minesweeper.git

@@ -8,7 +8,37 @@ PODS:
   - hermes-engine (0.80.0):
     - hermes-engine/Pre-built (= 0.80.0)
   - hermes-engine/Pre-built (0.80.0)
-  - PrismRn (0.1.0):
+  - Minesweeper (0.1.1):
+    - boost
+    - DoubleConversion
+    - fast_float
+    - fmt
+    - glog
+    - hermes-engine
+    - RCT-Folly
+    - RCT-Folly/Fabric
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-hermes
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - SocketRocket
+    - Yoga
+  - prism (1.0.0)
+  - PrismRn (0.1.1):
     - boost
     - DoubleConversion
     - fast_float
@@ -2162,6 +2192,8 @@ DEPENDENCIES:
   - fmt (from `../node_modules/react-native/third-party-podspecs/fmt.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
+  - "Minesweeper (from `../node_modules/@nocanstillbb/minesweeper`)"
+  - "prism (from `../node_modules/@nocanstillbb/prism`)"
   - "PrismRn (from `../node_modules/@nocanstillbb/prism-rn`)"
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTDeprecation (from `../node_modules/react-native/ReactApple/Libraries/RCTFoundation/RCTDeprecation`)
@@ -2251,6 +2283,10 @@ EXTERNAL SOURCES:
   hermes-engine:
     :podspec: "../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec"
     :tag: hermes-2025-05-06-RNv0.80.0-4eb6132a5bf0450bf4c6c91987675381d7ac8bca
+  Minesweeper:
+    :path: "../node_modules/@nocanstillbb/minesweeper"
+  prism:
+    :path: "../node_modules/@nocanstillbb/prism"
   PrismRn:
     :path: "../node_modules/@nocanstillbb/prism-rn"
   RCT-Folly:
@@ -2392,7 +2428,9 @@ SPEC CHECKSUMS:
   fmt: a40bb5bd0294ea969aaaba240a927bd33d878cdd
   glog: 5683914934d5b6e4240e497e0f4a3b42d1854183
   hermes-engine: 7068e976238b29e97b3bafd09a994542af7d5c0b
-  PrismRn: 447e3829d898d3d70665dd5e0a26af058dac128f
+  Minesweeper: 6ec9ff2d35be30df2dcdc8160df01a7b23c6e9ce
+  prism: e8f4e608b504fe18d1e845dd023948bd846ecc49
+  PrismRn: fe9e26d7d09261a54958b1a093b447b118a28219
   RCT-Folly: 846fda9475e61ec7bcbf8a3fe81edfcaeb090669
   RCTDeprecation: ff787f6c860a1b97dd1bc27264b61d23ad1994da
   RCTRequired: 664eb8399ed8a83e26ab65af7c2ad390f7e61696
@@ -2460,6 +2498,6 @@ SPEC CHECKSUMS:
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: 0c4b7d2aacc910a1f702694fa86be830386f4ceb
 
-PODFILE CHECKSUM: 27a83142d062f2c4373e74a06a18749fd9c41e2f
+PODFILE CHECKSUM: a8db8fc33808bf6e1c2fc8274334a499c76a125d
 
 COCOAPODS: 1.15.2

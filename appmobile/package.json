@@ -7,13 +7,16 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "aclean": "rm -rf android/build && rm -rf android/app/build "
   },
   "dependencies": {
+    "@nocanstillbb/prism": "*",
     "@nocanstillbb/prism-rn": "*",
+    "@nocanstillbb/minesweeper": "*",
+    "@react-native/new-app-screen": "0.80.0",
     "react": "19.1.0",
-    "react-native": "0.80.0",
-    "@react-native/new-app-screen": "0.80.0"
+    "react-native": "0.80.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
