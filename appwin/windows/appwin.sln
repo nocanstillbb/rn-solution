@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "appwin", "appwin\appwin.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrismRn", "..\node_modules\@nocanstillbb\prism-rn\windows\PrismRn\PrismRn.vcxproj", "{31A81E45-1488-41CE-913C-A153BB2FCDBE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minesweeper", "..\node_modules\@nocanstillbb\minesweeper\windows\Minesweeper\Minesweeper.vcxproj", "{F7855930-DC57-4140-B6A9-05F902B9BDE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -47,6 +49,18 @@ Global
 		{31A81E45-1488-41CE-913C-A153BB2FCDBE}.Release|x64.Build.0 = Release|x64
 		{31A81E45-1488-41CE-913C-A153BB2FCDBE}.Release|x86.ActiveCfg = Release|Win32
 		{31A81E45-1488-41CE-913C-A153BB2FCDBE}.Release|x86.Build.0 = Release|Win32
+		{F7855930-DC57-4140-B6A9-05F902B9BDE6}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{F7855930-DC57-4140-B6A9-05F902B9BDE6}.Debug|ARM64.Build.0 = Debug|ARM64
+		{F7855930-DC57-4140-B6A9-05F902B9BDE6}.Debug|x64.ActiveCfg = Debug|x64
+		{F7855930-DC57-4140-B6A9-05F902B9BDE6}.Debug|x64.Build.0 = Debug|x64
+		{F7855930-DC57-4140-B6A9-05F902B9BDE6}.Debug|x86.ActiveCfg = Debug|Win32
+		{F7855930-DC57-4140-B6A9-05F902B9BDE6}.Debug|x86.Build.0 = Debug|Win32
+		{F7855930-DC57-4140-B6A9-05F902B9BDE6}.Release|ARM64.ActiveCfg = Release|ARM64
+		{F7855930-DC57-4140-B6A9-05F902B9BDE6}.Release|ARM64.Build.0 = Release|ARM64
+		{F7855930-DC57-4140-B6A9-05F902B9BDE6}.Release|x64.ActiveCfg = Release|x64
+		{F7855930-DC57-4140-B6A9-05F902B9BDE6}.Release|x64.Build.0 = Release|x64
+		{F7855930-DC57-4140-B6A9-05F902B9BDE6}.Release|x86.ActiveCfg = Release|Win32
+		{F7855930-DC57-4140-B6A9-05F902B9BDE6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

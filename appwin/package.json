@@ -12,6 +12,8 @@
     "test:windows": "jest --config jest.config.windows.js"
   },
   "dependencies": {
+    "@nocanstillbb/minesweeper": "*",
+    "@nocanstillbb/prism": "*",
     "@nocanstillbb/prism-rn": "*",
     "react": "19.0.0",
     "react-native": "0.79.0",

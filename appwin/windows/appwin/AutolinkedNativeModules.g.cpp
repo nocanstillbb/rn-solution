@@ -3,6 +3,9 @@
 #include "pch.h"
 #include "AutolinkedNativeModules.g.h"
 
+// Includes from @nocanstillbb/minesweeper
+#include <winrt/Minesweeper.h>
+
 // Includes from @nocanstillbb/prism-rn
 #include <winrt/PrismRn.h>
 
@@ -11,6 +14,8 @@ namespace winrt::Microsoft::ReactNative
 
 void RegisterAutolinkedNativeModulePackages(winrt::Windows::Foundation::Collections::IVector<winrt::Microsoft::ReactNative::IReactPackageProvider> const& packageProviders)
 { 
+    // IReactPackageProviders from @nocanstillbb/minesweeper
+    packageProviders.Append(winrt::Minesweeper::ReactPackageProvider());
     // IReactPackageProviders from @nocanstillbb/prism-rn
     packageProviders.Append(winrt::PrismRn::ReactPackageProvider());
 }

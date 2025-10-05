@@ -4,6 +4,9 @@
 [submodule "appwin/npm-modules/prism"]
 	path = appwin/npm-modules/prism
 	url = git@github.com:cpp-prism/prism.git
+[submodule "appwin/npm-modules/minesweeper"]
+	path = appwin/npm-modules/minesweeper
+	url = git@github.com:nocanstillbb/minesweeper.git
 [submodule "appmac/npm-modules/prism"]
 	path = appmac/npm-modules/prism
 	url = git@github.com:cpp-prism/prism.git
