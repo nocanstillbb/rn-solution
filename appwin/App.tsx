@@ -1,6 +1,6 @@
 import { Text, View, StyleSheet } from 'react-native';
-//import { multiply,multiply2 } from '@nocanstillbb/prism-rn';
-import { multiply } from '@nocanstillbb/minesweeper';
+import { multiply,multiply2 } from '@nocanstillbb/prism-rn';
+//import { multiply,multiply2 } from '@nocanstillbb/minesweeper';
 
 const result = multiply(3, 7);
 
