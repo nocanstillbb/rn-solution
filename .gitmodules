@@ -25,3 +25,6 @@
 [submodule "appmobile/npm-modules/minesweeper"]
 	path = appmobile/npm-modules/minesweeper
 	url = git@github.com:nocanstillbb/minesweeper.git
+[submodule "appmobile/npm-modules/prism_container"]
+	path = appmobile/npm-modules/prism_container
+	url = git@github.com:cpp-prism/prism_container.git
