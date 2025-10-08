@@ -1,21 +1,45 @@
-import { Text, View, StyleSheet } from 'react-native';
-import { multiply,multiply2 } from '@nocanstillbb/prism-rn';
-//import { multiply,multiply2 } from '@nocanstillbb/minesweeper';
+import React, { memo, StrictMode } from 'react';
+import {
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
+} from 'react-native';
+import Minesweeper from  './views/Minesweeper';
 
-const result = multiply(3, 7);
 
-export default function App() {
+function App() {
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
+    <StrictMode>
+        {/* <SafeAreaView style={styles.container}>
+        </SafeAreaView> */}
+        <View style={styles.container}>
+               <Minesweeper /> 
+        </View>
+    </StrictMode>
   );
 }
+
+
+export default App;
+
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
+  },
+  title: {
+    fontSize: 18,
+    marginBottom: 20,
+  },
+  textInput: {
+    borderColor: 'black',
+    borderWidth: 1,
+    borderRadius: 5,
+    padding: 10,
+    marginTop: 10,
   },
 });

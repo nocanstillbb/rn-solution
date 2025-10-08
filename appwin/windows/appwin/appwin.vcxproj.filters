@@ -59,4 +59,9 @@
     <None Include="packages.lock.json" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\assets\fonts\Digital-7 Mono.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
 </Project>

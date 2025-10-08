@@ -14,6 +14,7 @@
   "dependencies": {
     "@nocanstillbb/minesweeper": "*",
     "@nocanstillbb/prism": "*",
+    "@nocanstillbb/prism_container": "*",
     "@nocanstillbb/prism-rn": "*",
     "react": "19.0.0",
     "react-native": "0.79.0",

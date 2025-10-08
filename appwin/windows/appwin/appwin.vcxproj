@@ -134,6 +134,9 @@
     <None Include="packages.config" />
     <None Include="packages.lock.json" />
   </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\assets\fonts\Digital-7 Mono.ttf" />
+  </ItemGroup>
   <Target Name="EnsureReactNativeWindowsTargets" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references targets in your node_modules\react-native-windows folder. The missing file is {0}.</ErrorText>
