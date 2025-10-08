@@ -10,6 +10,13 @@
   // You can add your custom initial props in the dictionary below.
   // They will be passed down to the ViewController used by React Native.
   self.initialProps = @{};
+  NSWindow *window = [NSApp mainWindow];
+
+  if (window) {
+    // 固定窗口大小
+    [window setMinSize:NSMakeSize(300, 200)];
+    [window setMaxSize:NSMakeSize(300, 200)];
+  }
 
   return [super applicationDidFinishLaunching:notification];
 }

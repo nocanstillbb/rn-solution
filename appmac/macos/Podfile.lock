@@ -9,6 +9,7 @@ PODS:
     - DoubleConversion
     - glog
     - prism
+    - PrismRn
     - RCT-Folly (= 2024.11.18.00)
     - RCTRequired
     - RCTTypeSafety
@@ -28,10 +29,12 @@ PODS:
     - ReactCommon/turbomodule/core
     - Yoga
   - prism (1.0.0)
+  - prism_container (1.0.0)
   - PrismRn (0.1.1):
     - DoubleConversion
     - glog
     - prism
+    - prism_container
     - RCT-Folly (= 2024.11.18.00)
     - RCTRequired
     - RCTTypeSafety
@@ -1537,6 +1540,7 @@ DEPENDENCIES:
   - glog (from `../node_modules/react-native-macos/third-party-podspecs/glog.podspec`)
   - "Minesweeper (from `../node_modules/@nocanstillbb/minesweeper`)"
   - "prism (from `../node_modules/@nocanstillbb/prism`)"
+  - "prism_container (from `../node_modules/@nocanstillbb/prism_container`)"
   - "PrismRn (from `../node_modules/@nocanstillbb/prism-rn`)"
   - RCT-Folly (from `../node_modules/react-native-macos/third-party-podspecs/RCT-Folly.podspec`)
   - RCT-Folly/Fabric (from `../node_modules/react-native-macos/third-party-podspecs/RCT-Folly.podspec`)
@@ -1618,6 +1622,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@nocanstillbb/minesweeper"
   prism:
     :path: "../node_modules/@nocanstillbb/prism"
+  prism_container:
+    :path: "../node_modules/@nocanstillbb/prism_container"
   PrismRn:
     :path: "../node_modules/@nocanstillbb/prism-rn"
   RCT-Folly:
@@ -1746,9 +1752,10 @@ SPEC CHECKSUMS:
   FBLazyVector: 31dd89ddefc65148109e00de4270d3ac484bd8c1
   fmt: f6af2d677a106e3e44c9536a4c0c7f03ab53c854
   glog: b7594b792ee4e02ed1f44b01d046ca25fa713e3d
-  Minesweeper: 8cba7e41f673744dfa58028d361e7d5bae8e28af
+  Minesweeper: f5bc50950f172aa69ca8df6c3529908a542c82ef
   prism: 83ef49351a0a682461b3a946a3ff228c8d25ba22
-  PrismRn: a6b1a3a7b00dbc972f744ab5f3bf5b8d9d9f63b2
+  prism_container: 83a29892aabeac49581ca424978bd6c975a589c1
+  PrismRn: cc217729196082179f131776ce444a2eccad1039
   RCT-Folly: e8b53d8c0d2d9df4a6a8b0a368a1a91fc62a88cb
   RCTDeprecation: 9da6c2d8a3b1802142718283260fb06d702ddb07
   RCTRequired: 574f9d55bda1d50676530b6c36bab4605612dfb6

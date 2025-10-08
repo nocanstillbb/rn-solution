@@ -11,11 +11,13 @@
     "test": "jest"
   },
   "dependencies": {
+    "@nocanstillbb/minesweeper": "*",
     "@nocanstillbb/prism": "*",
     "@nocanstillbb/prism-rn": "*",
-    "@nocanstillbb/minesweeper": "*",
+    "@nocanstillbb/prism_container": "*",
     "react": "19.0.0",
     "react-native": "0.78.3",
+    "react-native-vector-icons": "^10.3.0",
     "react-native-macos": "^0.78.0-0"
   },
   "devDependencies": {

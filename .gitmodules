@@ -28,3 +28,6 @@
 [submodule "appmobile/npm-modules/prism_container"]
 	path = appmobile/npm-modules/prism_container
 	url = git@github.com:cpp-prism/prism_container.git
+[submodule "appmac/npm-modules/prism_contianer"]
+	path = appmac/npm-modules/prism_contianer
+	url = git@github.com:cpp-prism/prism_container.git

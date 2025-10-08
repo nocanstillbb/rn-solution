@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2399F4CA2E9670410078FCCD /* Digital-7 Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4C92E9670410078FCCD /* Digital-7 Mono.ttf */; };
 		5142014D2437B4B30078DB4F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5142014C2437B4B30078DB4F /* AppDelegate.mm */; };
 		514201522437B4B40078DB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514201512437B4B40078DB4F /* Assets.xcassets */; };
 		514201552437B4B40078DB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514201532437B4B40078DB4F /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		13B07F961A680F5B00A75B9A /* appmac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appmac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E32D649FE6D0F95CDC96AE3 /* Pods-appmac-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appmac-macOS.debug.xcconfig"; path = "Target Support Files/Pods-appmac-macOS/Pods-appmac-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		207AD3CF2DA8E7C2263AB8C7 /* Pods-appmac-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appmac-macOS.release.xcconfig"; path = "Target Support Files/Pods-appmac-macOS/Pods-appmac-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		2399F4C92E9670410078FCCD /* Digital-7 Mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Digital-7 Mono.ttf"; sourceTree = "<group>"; };
 		514201492437B4B30078DB4F /* appmac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appmac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5142014B2437B4B30078DB4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5142014C2437B4B30078DB4F /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				514201562437B4B40078DB4F /* Info.plist */,
 				514201572437B4B40078DB4F /* main.m */,
 				514201592437B4B40078DB4F /* appmac.entitlements */,
+				2399F4C92E9670410078FCCD /* Digital-7 Mono.ttf */,
 			);
 			path = "appmac-macOS";
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				514201522437B4B40078DB4F /* Assets.xcassets in Resources */,
+				2399F4CA2E9670410078FCCD /* Digital-7 Mono.ttf in Resources */,
 				514201552437B4B40078DB4F /* Main.storyboard in Resources */,
 				A5D976F0C3DFA5F75B826A81 /* PrivacyInfo.xcprivacy in Resources */,
 			);
@@ -471,10 +475,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -530,10 +531,7 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = false;

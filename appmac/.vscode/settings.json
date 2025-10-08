@@ -1,0 +1,29 @@
+{
+  //"C_Cpp.default.compileCommands": "${workspaceFolder}/macos/compile_commands.json"
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "C_Cpp.formatting": "disabled",
+  "clangd.path": "/Applications/Xcode16.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clangd",
+  "clangd.arguments": [
+    "--completion-style=detailed",
+    "--header-insertion=never",
+    "--compile-commands-dir=./macos",
+    "--log=verbose",
+    "--pretty"
+  ],
+
+
+  // 使用 clang-format 格式化
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.formatOnSave": true
+  },
+  "clang-format.style": "file",
+
+
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true
+  }
+
+
+}

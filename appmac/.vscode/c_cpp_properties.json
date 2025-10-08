@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/macos",
+                "${workspaceFolder}/node_modules/react-native/ReactCommon",
+                "${workspaceFolder}/node_modules/@nocanstilbb/**",
+                "${workspaceFolder}/npm_modules/**",
+                "${workspaceFolder}/third-party",
+                "${workspaceFolder}/macos/Pods/**"
+            ],
+            "defines": [
+                "__DEV__"
+            ],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang++",
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "macos-clang-x64",
+            "compileCommands": [
+                "${workspaceFolder}/macos/compile_commands.json"
+            ]
+        }
+    ],
+    "version": 4
+}
