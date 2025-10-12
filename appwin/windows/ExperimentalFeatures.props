@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ReactNativeWindowsDir)..\@nocanstillbb\prism\include;$(ReactNativeWindowsDir)..\@nocanstillbb\prism-rn\include;$(ReactNativeWindowsDir)..\@nocanstillbb\prism_container;$(ReactNativeWindowsDir)..\@nocanstillbb\prism_container\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
   <PropertyGroup Label="Microsoft.ReactNative Experimental Features">
     <!--
       Required for building a New Architecture project.
@@ -10,7 +14,6 @@
       See https://microsoft.github.io/react-native-windows/docs/new-architecture
     -->
     <RnwNewArch>true</RnwNewArch>
-
     <!--
       Changes compilation to assume use of Microsoft.ReactNative NuGet packages
       instead of building the framework from source. Defaults to true.
@@ -20,8 +23,6 @@
       See https://microsoft.github.io/react-native-windows/docs/nuget
     -->
     <UseExperimentalNuget>true</UseExperimentalNuget>
-
     <ReactExperimentalFeaturesSet>true</ReactExperimentalFeaturesSet>
   </PropertyGroup>
-
 </Project>
